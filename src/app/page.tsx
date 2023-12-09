@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import ReactMapGL, { Marker } from "react-map-gl";
+import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import nationalParks from "../data/nationalparks";
 import PushPinIcon from "@mui/icons-material/PushPin";
 import styled from "styled-components";
@@ -16,12 +16,15 @@ const Home = () => {
 		latitude: 0.0236,
 		longitude: 37.9062,
 		zoom: 6,
-		maxZoom: 12,
 	});
-	const [selectedPark, setSelectedPark] = useState(null);
+	const [selectedPark, setSelectedPark] = useState({
+		geometry: { coordinates: [] },
+		properties: {},
+	});
 	const token = process.env.MAPBOX_TOKEN;
 
 	console.log({ selectedPark });
+	console.log(selectedPark.geometry.coordinates.length);
 
 	return (
 		<Wrapper>
@@ -35,6 +38,8 @@ const Home = () => {
 					height: "100vh",
 				}}
 				attributionControl={false}
+				minZoom={6}
+				maxZoom={6}
 				// onViewportChange={(viewport) => setViewport(viewport)}
 			>
 				{nationalParks.features.map((park: any) => {
@@ -43,7 +48,7 @@ const Home = () => {
 							key={park.properties.description}
 							latitude={park.geometry.coordinates[1]}
 							longitude={park.geometry.coordinates[0]}
-							onClick={() => setSelectedPark(park.properties)}
+							onClick={() => setSelectedPark(park)}
 							style={{
 								cursor: "pointer",
 							}}
@@ -52,6 +57,16 @@ const Home = () => {
 						</Marker>
 					);
 				})}
+
+				{selectedPark.geometry.coordinates.length > 0 && (
+					<Popup
+						latitude={selectedPark.geometry.coordinates[1]}
+						longitude={selectedPark.geometry.coordinates[0]}
+						closeOnClick={false}
+					>
+						<div>Hello</div>
+					</Popup>
+				)}
 			</ReactMapGL>
 		</Wrapper>
 	);
