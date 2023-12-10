@@ -25,8 +25,6 @@ const Home = () => {
 	const [selectedPark, setSelectedPark] = useState<any>(initialSelectedPark);
 	const token = process.env.MAPBOX_TOKEN;
 
-	console.log({ selectedPark });
-
 	return (
 		<Wrapper>
 			<ReactMapGL
