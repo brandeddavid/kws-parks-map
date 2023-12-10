@@ -46,23 +46,28 @@ const Home = () => {
 				{nationalParks.features.map((park: any) => {
 					return (
 						<Marker
-							key={park.properties.description}
-							latitude={park.geometry.coordinates[1]}
-							longitude={park.geometry.coordinates[0]}
+							key={park.properties.title}
+							latitude={park.geometry.coordinates[0]}
+							longitude={park.geometry.coordinates[1]}
 							onClick={() => setSelectedPark(park)}
 							style={{
 								cursor: "pointer",
 							}}
 						>
-							<PushPinIcon fontSize="small" />
+							<PushPinIcon
+								sx={{
+									"z-index": 100,
+								}}
+								fontSize="small"
+							/>
 						</Marker>
 					);
 				})}
 
 				{selectedPark.geometry.coordinates.length > 0 && (
 					<Popup
-						latitude={selectedPark.geometry.coordinates[1]}
-						longitude={selectedPark.geometry.coordinates[0]}
+						latitude={selectedPark.geometry.coordinates[0]}
+						longitude={selectedPark.geometry.coordinates[1]}
 						closeOnClick={false}
 						onClose={() => setSelectedPark(initialSelectedPark)}
 					>
@@ -81,6 +86,9 @@ const Home = () => {
 							</div> */}
 
 							<div>{selectedPark.properties.description}</div>
+							<div className="flex justify-end underline mt-[5px] cursor-pointer">
+								View more
+							</div>
 						</div>
 					</Popup>
 				)}
