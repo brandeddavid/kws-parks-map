@@ -8,7 +8,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Nairobi National Park",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Nairobi National Park",
 				url: "",
@@ -24,7 +25,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Masaai Mara National Park",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Masaai Mara National Park",
 				url: "",
@@ -39,7 +41,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Tsavo East National Park",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Tsavo National Park",
 				url: "",
@@ -54,7 +57,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Tsavo West National Park",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Tsavo West National Park",
 				url: "",
@@ -69,7 +73,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Amboseli National Park",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Amboseli National Park",
 				url: "",
@@ -84,7 +89,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Shimba Hills National Reserve",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Shimba Hills National Reserve",
 				url: "",
@@ -99,7 +105,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Lake Nakuru National Park",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Lake Nakuru National Park",
 				url: "",
@@ -114,7 +121,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Samburu National Reserve",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Samburu National Reserve",
 				url: "",
@@ -129,7 +137,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Aberdare National Park",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Aberdare National Park",
 				url: "",
@@ -144,7 +153,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Arabuko Sokoke National Reserve",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Arabuko Sokoke National Reserve",
 				url: "",
@@ -159,7 +169,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Kisite Mpunguti Marine Park and Reserve",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Kisite Mpunguti Marine Park and Reserve",
 				url: "",
@@ -174,7 +185,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Meru National Park",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Meru National Park",
 				url: "",
@@ -189,7 +201,8 @@ const nationalParks = {
 			},
 			type: "Feature",
 			properties: {
-				description: "Mount Kenya National Park",
+				description:
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mollis velit, ut accumsan nisl. Donec et lorem eget ligula euismod suscipit non a felis. Aliquam erat volutpat. Ut in turpis ac dui tempor eleifend. Etiam sit amet tellus pulvinar, sagittis nulla id, gravida nibh. Nullam elit libero, tempor vulputate.",
 				"marker-symbol": "marker",
 				title: "Mount Kenya National Park",
 				url: "",
